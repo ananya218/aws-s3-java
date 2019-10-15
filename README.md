@@ -6,6 +6,9 @@ It's an AWS S3-Bucket clone by using [AWS SDK for Java 2.0](https://docs.aws.ama
 Make sure that you put your credentials in `~/.aws`. 
 You can configure them by using the [AWS-CLI](https://aws.amazon.com/cli/) and `aws configure`.
 See if it works by using `aws s3 ls`. Below is a **sample** output by using the command.
+//reference to 'bucket' select list
+var sel=document.getElementById('buckets');
+consol.log(sel.value);
 ```
 2019-01-01 19:34:33 bucket1
 2019-02-02 09:49:17 bucket2
